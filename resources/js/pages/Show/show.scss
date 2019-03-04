@@ -1,0 +1,37 @@
+@import '../../styles/app';
+
+.widget {
+    //max-width: 460px;
+    padding: 30px !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: $font-weight-normal;
+    }
+  }
+
+  #brand-image-holder {
+      margin-top: 10px !important;
+  }
+
+  #info {
+      margin:15px 0px 0px 0px;
+  }
+
+  .filter-link {
+    margin:0px 4px 5px 4px;
+}
+.filter-link:hover {
+    color:green;
+    text-decoration:none;
+}
+
+#addMenu {
+  border:1px solid #ddd;
+  border-top:2px solid #333;
+  padding:5px;
+}

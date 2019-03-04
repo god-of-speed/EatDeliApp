@@ -1,0 +1,16 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* html {
+    width:100vw;
+    height:100vh;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    cursor:default;
+    width:100vw;
+    height:100vh;
+} */

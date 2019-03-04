@@ -1,0 +1,89 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-brands-svg-icons": "^5.7.1",
+    "@fortawesome/free-regular-svg-icons": "^5.7.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "axios": "^0.18",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^4.0.7",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.12",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.15.2",
+    "sass-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.0.0",
+    "animate.css": "^3.6.1",
+    "awesome-bootstrap-checkbox": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "css-loader": "^1.0.0",
+    "d3": "3.5.17",
+    "easy-pie-chart": "^2.1.7",
+    "expose-loader": "^0.7.5",
+    "flot": "^0.8.0-alpha",
+    "font-awesome": "^4.7.0",
+    "glyphicons-halflings": "1.9.1",
+    "govpredict-morris": "0.5.1",
+    "imports-loader": "^0.8.0",
+    "jquery-sparkline": "2.4.0",
+    "jquery-ui": "^1.12.1",
+    "line-awesome": "icons8/line-awesome",
+    "messenger": "git+https://github.com/HubSpot/messenger.git#v1.4.2",
+    "napa": "^3.0.0",
+    "node-sass": "^4.9.0",
+    "nvd3": "1.8.6",
+    "rickshaw": "1.6.6",
+    "vee-validate": "^2.1.0-beta.6",
+    "vue": "^2.6.7",
+    "vue-custom-scrollbar": "^1.0.0",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.7",
+    "vue-touch": "2.0.0-beta.4",
+    "vuetrend": "^0.3.2",
+    "vuex": "^3.1.0",
+    "widgster": "^1.0.0"
+  },
+  "napa": {
+    "jquery.flot.animator": "https://github.com/Codicode/flotanimator.git#3c256c0183d713fd3bf41d04417873928eb1a751",
+    "flot.dashes": "https://github.com/cquartier/flot.dashes.git",
+    "jquery.flot-orderBars": "https://github.com/emmerich/flot-orderBars.git"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
